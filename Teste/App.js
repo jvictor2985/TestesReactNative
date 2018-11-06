@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Container, Header, Content, ListItem, Text, Radio, Right, Left } from 'native-base';
+import { Container, Header, Content, ListItem, Radio, Right, Left } from 'native-base';
 
 export default class App extends React.Component {
   render() {
