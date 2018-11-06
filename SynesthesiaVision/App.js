@@ -18,7 +18,7 @@ export default class App extends Component {
   render() {
     return ( 
       <ScrollView style={styles.container}>
-       <Image source={require('./logo_synesthesia.png')} />
+       <Image style={styles.synesthesiaImage} source={require('./synesthesia_image.png')} />
        <View><Text style={styles.spacer}>.</Text></View>
        <Button
         onPress={() => Alert.alert(
@@ -194,5 +194,10 @@ const styles = StyleSheet.create({
     fontSize: 32,
     color:'#000000',
   },
-
+  synesthesiaImage:{
+    flex: 1,
+    width: 50,
+    height: 50,
+    resizeMode: 'contain'
+  }
 });
